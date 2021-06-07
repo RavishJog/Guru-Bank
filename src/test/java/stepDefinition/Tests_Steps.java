@@ -1,10 +1,12 @@
 package stepDefinition;
 
-import com.vimalselvam.cucumber.listener.Reporter;
+//import com.vimalselvam.cucumber.listener.Reporter;
 import cucumber.api.Scenario;
+import com.cucumber.listener.Reporter;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
+import org.junit.AfterClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -12,17 +14,37 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import java.io.File;
+import java.io.IOException;
 import java.security.SecureRandom;
 
+import CommonMethods.Utility;
 
-public class Tests_Steps {
-
-    WebDriver driver;
+public class Tests_Steps extends Utility{
+    private Scenario scenario;
 
     @Before
     public void setUpDriver() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
     }
+    @Before
+    public void before(Scenario scenario) {
+        this.scenario = scenario;
+    }
+    //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    //ScreenShot Function for AFTER (Only When Failed)
+    @After
+    public void tearDown(Scenario scenario) throws IOException {
+        if (scenario.isFailed()) {
+            // calling Sceenshot function
+            takeScreenShot(scenario);
+        }
+        try { driver.quit(); }
+        catch (Exception e) {
+//            tLog.logError(String.valueOf(e));
+            System.out.println(String.valueOf(e));}
+    }
+    //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
     @After
     public static void setup() {
         Reporter.loadXMLConfig(new File("src/test/resources/configs/extent-config.xml"));
@@ -30,8 +52,11 @@ public class Tests_Steps {
         Reporter.setSystemInfo("os", System.getProperty("user.os"));
         Reporter.setTestRunnerOutput("Sample test runner output message");
     }
+
+
     @Given("^I am on GTPL Bank website$")
     public void i_am_on_GTPL_Bank_website() throws Throwable {
+
         driver = new ChromeDriver();
         driver.get("http://demo.guru99.com/V1/index.php");
         driver.manage().window().maximize();
@@ -39,6 +64,7 @@ public class Tests_Steps {
 
     @When("^I enter \"([^\"]*)\" userID and password \"([^\"]*)\"$")
     public void i_enter_userID_and_password(String userid, String password) throws Throwable {
+        takeScreenShot(this.scenario);
         driver.findElement(By.name("uid")).sendKeys(userid);
         driver.findElement(By.name("password")).sendKeys(password);
         driver.findElement(By.name("btnLogin")).click();
@@ -52,10 +78,12 @@ public class Tests_Steps {
             System.out.println("User Name or Password incorrect");
             Assert.fail("User Name or Password incorrect");
         }
+
     }
 
     @Then("^I click on New Customer$")
     public void i_click_on_New_Customer() throws Throwable {
+        takeScreenShot(this.scenario);
         driver.findElement(By.xpath("//a[contains(text(),'New Customer')]")).click();
     }
 
@@ -266,6 +294,7 @@ public class Tests_Steps {
         else {
             System.out.println("NO Error message needed as Email is filled in properly");
         }
+        takeScreenShot(scenario);
     }
     @Then("^I click on Submit Button$")
     public void i_click_on_Submit_Button() throws Throwable {

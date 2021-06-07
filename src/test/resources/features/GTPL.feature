@@ -6,16 +6,16 @@
 Feature: Effect transactions on GTPL Bank website
 
 	#Scenario1
-#	@Login
-#	Scenario Outline: Accessing the Registration page to create a new Customer
-#
-#		Given I am on GTPL Bank website
-#		When I enter "<userid>" userID and password "<password>"
-#		Then The Manager Page is displayed
-#
-#		Examples:
-#			|userid			|password	| customername |
-#			|mngr325061 	|EnabagE    | John Doe		|
+	@Login
+	Scenario Outline: Accessing the Registration page to create a new Customer
+
+		Given I am on GTPL Bank website
+		When I enter "<userid>" userID and password "<password>"
+		Then The Manager Page is displayed
+
+		Examples:
+			|userid			|password	| customername |
+			|mngr325061 	|EnabagE    | John Doe		|
 
 
 	#Scenario2
