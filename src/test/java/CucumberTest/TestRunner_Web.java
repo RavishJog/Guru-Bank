@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
                 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/Report.html"
 
         }
-        ,tags = "@Execute"
+        ,tags = "@AddCustomer"
 )
 public class TestRunner_Web
 {
