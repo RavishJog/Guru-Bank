@@ -38,7 +38,9 @@ public class Tests_Steps extends Utility{
             // calling Sceenshot function
             takeScreenShot(scenario);
         }
-        try { driver.quit(); }
+//        try { driver.quit(); }
+        try {
+            System.out.println("No Quit");; }
         catch (Exception e) {
 //            tLog.logError(String.valueOf(e));
             System.out.println(String.valueOf(e));}
@@ -276,6 +278,7 @@ public class Tests_Steps extends Utility{
 
     @When("^I verify \"([^\"]*)\" for Email error message$")
     public void i_verify_for_Email_error_message(String Error) throws Throwable {
+        takeScreenShot(this.scenario);
         if (Error.equals("Email-ID must not be blank")) {
             try {
                 driver.findElement(By.xpath("//label[@id='message9']")).click();
@@ -299,9 +302,11 @@ public class Tests_Steps extends Utility{
     @Then("^I click on Submit Button$")
     public void i_click_on_Submit_Button() throws Throwable {
         driver.findElement(By.name("sub")).click();
+        Thread.sleep(250000);
     }
     @Then("^I close the browser$")
     public void i_close_the_browser () throws Throwable {
         driver.quit();
     }
+
 }
