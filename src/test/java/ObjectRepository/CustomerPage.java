@@ -9,8 +9,18 @@ public class CustomerPage {
     //**************************METHOD 1*******make_Use_of_Separate_Class***********************
     private static WebElement element = null;
 
+    // Defining Object Variables
+    private static final By Button_NewCustomer = By.xpath("//li//a[contains(text(),'New Customer')]");
+    private static final By radio_Male = By.xpath("//tbody/tr[5]/td[2]/input[1]");
+
+
+
+
+    //**************************Return Methods for each Element***********************
+
+
     public static WebElement btnNewCustomer (WebDriver driver) {
-        element = driver.findElement(By.xpath("//li//a[contains(text(),'New Customer')]"));
+        element = driver.findElement(Button_NewCustomer);
         return element;
     }
     public static WebElement txtCustName (WebDriver driver) {
@@ -18,8 +28,8 @@ public class CustomerPage {
         return element;
     }
     //Radio Button
-    public static WebElement radGenderMale (WebDriver driver) {
-        element = driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]"));
+    private static WebElement radGenderMale (WebDriver driver) {
+        element = driver.findElement(radio_Male);
         return element;
     }
     public static WebElement radGenderFemale (WebDriver driver) {

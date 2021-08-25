@@ -2,6 +2,7 @@ package stepDefinition;
 
 //import com.vimalselvam.cucumber.listener.Reporter;
 import ObjectRepository.CustomerPage;
+import ObjectRepository.GTPL;
 import cucumber.api.Scenario;
 import com.cucumber.listener.Reporter;
 import cucumber.api.java.After;
@@ -17,6 +18,7 @@ import org.testng.Assert;
 import java.io.File;
 import java.io.IOException;
 import java.security.SecureRandom;
+import java.util.concurrent.TimeUnit;
 
 import CommonMethods.Utility;
 
@@ -39,9 +41,9 @@ public class Tests_Steps extends Utility{
             // calling Sceenshot function
             takeScreenShot(scenario);
         }
-//        try { driver.quit(); }
-        try {
-            System.out.println("No Quit");; }
+        try { driver.quit(); }
+//        try {
+//            System.out.println("No Quit");; }
         catch (Exception e) {
 //            tLog.logError(String.valueOf(e));
             System.out.println(String.valueOf(e));}
@@ -66,9 +68,11 @@ public class Tests_Steps extends Utility{
     @When("^I enter \"([^\"]*)\" userID and password \"([^\"]*)\"$")
     public void i_enter_userID_and_password(String userid, String password) throws Throwable {
         takeScreenShot(this.scenario);
-        driver.findElement(By.name("uid")).sendKeys(userid);
-        driver.findElement(By.name("password")).sendKeys(password);
-        driver.findElement(By.name("btnLogin")).click();
+//        driver.findElement(By.name("uid")).sendKeys(userid);
+//        driver.findElement(By.name("password")).sendKeys(password);
+//        driver.findElement(By.name("btnLogin")).click();
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+        GTPL.LoginWith(userid,password,driver);
     }
 
     @Then("^The Manager Page is displayed$")
@@ -120,19 +124,9 @@ public class Tests_Steps extends Utility{
 
     @Given("^I select \"([^\"]*)\" in the Radio Button field$")
     public void i_select_in_the_Radio_Button_field(String Gender) throws Throwable {
-//        if (Gender.equals("male")) {
-//            System.out.println("Male if working");
-//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]")).click();
-//
-//        } else if (Gender.equals("female")) {
-//            System.out.println("Female if working");
-//
-//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[2]")).click();
-//
-//        } else {
-//            System.out.println("Option is Not Valid");
-//        }
+
         CustomerPage.SelectGender(Gender,driver);
+
     }
 
     @Given("^I input \"([^\"]*)\" in the Date Of Birth field$")

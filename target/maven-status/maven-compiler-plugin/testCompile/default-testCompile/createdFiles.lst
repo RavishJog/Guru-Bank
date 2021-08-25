@@ -1,6 +1,0 @@
-ObjectRepository\CustomerPage.class
-stepDefinition\Tests_Steps_NewCust.class
-stepDefinition\Tests_Steps_Telecom.class
-stepDefinition\Tests_Steps.class
-CommonMethods\Utility.class
-CucumberTest\TestRunner_Web.class

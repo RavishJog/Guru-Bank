@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
                 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/Report.html"
 
         }
-        ,tags = "@NumbersNotAllowed1"
+        ,tags = "@Nitish"
 )
 public class TestRunner_Web
 {
@@ -28,6 +28,8 @@ public class TestRunner_Web
                 new TestNGCucumberRunner(getClass()).runCukes();
 
         }
+
+
 
 }
 

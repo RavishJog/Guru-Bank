@@ -19,6 +19,7 @@ import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class Tests_Steps_Telecom extends Utility {
     private Scenario scenario;
@@ -71,6 +72,7 @@ public class Tests_Steps_Telecom extends Utility {
     @When("^I click on Add Customer$")
     public void i_click_on_Add_Customer() throws Throwable {
         takeScreenShot(this.scenario);
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//h3//a[contains(text(),'Add Customer')]")).click();
     }
 
