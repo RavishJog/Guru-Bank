@@ -1,6 +1,7 @@
 package stepDefinition;
 
 //import com.vimalselvam.cucumber.listener.Reporter;
+import ObjectRepository.CustomerPage;
 import cucumber.api.Scenario;
 import com.cucumber.listener.Reporter;
 import cucumber.api.java.After;
@@ -59,9 +60,7 @@ public class Tests_Steps extends Utility{
     @Given("^I am on GTPL Bank website$")
     public void i_am_on_GTPL_Bank_website() throws Throwable {
 
-        driver = new ChromeDriver();
-        driver.get("http://demo.guru99.com/V1/index.php");
-        driver.manage().window().maximize();
+        openBrowser();
     }
 
     @When("^I enter \"([^\"]*)\" userID and password \"([^\"]*)\"$")
@@ -121,18 +120,19 @@ public class Tests_Steps extends Utility{
 
     @Given("^I select \"([^\"]*)\" in the Radio Button field$")
     public void i_select_in_the_Radio_Button_field(String Gender) throws Throwable {
-        if (Gender.equals("male")) {
-            System.out.println("Male if working");
-            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]")).click();
-
-        } else if (Gender.equals("female")) {
-            System.out.println("Female if working");
-
-            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[2]")).click();
-
-        } else {
-            System.out.println("Option is Not Valid");
-        }
+//        if (Gender.equals("male")) {
+//            System.out.println("Male if working");
+//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]")).click();
+//
+//        } else if (Gender.equals("female")) {
+//            System.out.println("Female if working");
+//
+//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[2]")).click();
+//
+//        } else {
+//            System.out.println("Option is Not Valid");
+//        }
+        CustomerPage.SelectGender(Gender,driver);
     }
 
     @Given("^I input \"([^\"]*)\" in the Date Of Birth field$")
@@ -308,5 +308,6 @@ public class Tests_Steps extends Utility{
     public void i_close_the_browser () throws Throwable {
         driver.quit();
     }
+
 
 }

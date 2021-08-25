@@ -5,6 +5,7 @@ import cucumber.api.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.sql.Driver;
@@ -15,6 +16,15 @@ import static com.google.common.io.Files.copy;
 public class Utility {
 
     public static WebDriver driver;
+
+    public static void openBrowser() {
+        driver = new ChromeDriver();
+        driver.get("http://demo.guru99.com/V1/index.php");
+        driver.manage().window().maximize();
+
+    }
+
+
     //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     //general screenshot function to be called anytime with step definition
     public static void takeScreenShot(Scenario scenario) {

@@ -5,6 +5,17 @@
     <classes>
       <class name="CucumberTest.TestRunner_Web"/>
       <class name="stepDefinition.Tests_Steps"/>
+      <class name="stepDefinition.Tests_Steps_NewCust"/>
+      <class name="stepDefinition.Tests_Steps_Telecom"/>
     </classes>
   </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="CucumberTest.TestRunner_Web">
+        <methods>
+          <include name="runCukes"/>
+        </methods>
+      </class> <!-- CucumberTest.TestRunner_Web -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

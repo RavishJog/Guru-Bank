@@ -4,8 +4,121 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a1bb5c-7302-49ab-926d-0b39bf96d007" name="Default Changelist" comment="">
+    <list default="true" id="22a1bb5c-7302-49ab-926d-0b39bf96d007" name="Default Changelist" comment="merge from main">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectRepository/CustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Tests_Steps_NewCust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddNewCustomer.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_07_06_17_39_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_07_06_17_39__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Registration_page_to_create_a_new_CustomerVGMPP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerAJNUU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerEIXEB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerHDGWD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerHUKRG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerIXALR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerJEGMP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerMQNYM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerNMLUZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerNPIJH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerOWBXJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerQUNWA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerTWDKO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerUHQTO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerXANEU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerYUSUE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerZKKMW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Accessing_the_Telecom_page_to_create_a_new_CustomerZPXFX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerAQLTY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerAVEBJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerAXQJS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerBPYQE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerBUDIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerBYZIF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerEETBK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerEFSSW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerEKYMB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerEZQAP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerHPAMO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerJKPAH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerJOGYF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerKZWMR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerMOPJI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerNTAQT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerOUXGI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerPNZWP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerQTDIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerRCEEA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerRFBPT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerSGZLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerSJZFG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerSPGSN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerSQVNQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerTCYKT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerTICTR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerTKECS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerUADRV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerUGWXT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerVFYFZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerVXNDH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerWOMQV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerWQFSR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerWQZAU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerWVDMP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerWYMQH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerYIVZA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerYLION.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerYPYWF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerZKCBN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerZLRAM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/screenshots/Adding_a_New_CustomerZUFEN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommonMethods/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommonMethods/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberTest/TestRunner_Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberTest/TestRunner_Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Tests_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Tests_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/Tests_Steps_Telecom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/Tests_Steps_Telecom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GTPL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/GTPL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Telecom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Telecom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReportjson/html-report/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReportjson/html-report/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReportjson/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReportjson/html-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReportjson/html-report/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReportjson/html-report/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReportjson/html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReportjson/html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CucumberReportjson/html-report/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReportjson/html-report/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ExtentReport/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ExtentReport/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-CucumberTest.TestRunner_Web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-CucumberTest.TestRunner_Web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire8329940851329294668tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire_07468326890936303723tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5457929789527422526.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CommonMethods/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommonMethods/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberTest/TestRunner_Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberTest/TestRunner_Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GTPL.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GTPL.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Telecom.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Telecom.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Tests_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Tests_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/Tests_Steps_Telecom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/Tests_Steps_Telecom.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +143,9 @@
       <find>junit</find>
     </findStrings>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -37,6 +153,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -207,18 +331,60 @@
     <option name="myCommands">
       <command value="mvn clean test -Dcucumber.options=&quot;--tags @Execute&quot;" />
       <command value="mvn clean test -Dcucumber.options=&quot;--tags @Login&quot;" />
+      <command value="mvn clean test -Dcucumber.options=&quot;--tag @AddTariffPlan&quot;" />
+      <command value="mvn clean test -Dcucumber.options=&quot;--tags @AddTariffPlan&quot;" />
       <command value="mvn test" />
+      <command value="mvn clean test -Dcucumber.options=&quot;--tags @BlanckCustomerName&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner_Web">
-    <configuration name="Feature: GTPL" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestRunner_Web">
+    <configuration name="Feature: AddCustomer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GTPL.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddCustomer.feature" />
       <option name="GLUE" value="stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Training" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: GTPL" />
+      <option name="SUGGESTED_NAME" value="Feature: AddCustomer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: AddNewCustomer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddNewCustomer.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Training" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: AddNewCustomer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Accessing the Registration page to create a new Customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddNewCustomer.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Training" />
+      <option name="NAME_FILTER" value="^Accessing the Registration page to create a new Customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Accessing the Registration page to create a new Customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Accessing the Registration page to create a new Customer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -244,6 +410,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner_Web" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="CucumberTest.TestRunner_Web" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner_Web.runCukes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Training" />
       <extension name="coverage">
@@ -263,12 +446,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: GTPL" />
       <item itemvalue="JUnit.TestRunner_Web" />
       <item itemvalue="TestNG.TestRunner_Web.runCukes" />
+      <item itemvalue="Cucumber Java.Feature: AddCustomer" />
+      <item itemvalue="Cucumber Java.Feature: AddNewCustomer" />
+      <item itemvalue="TestNG.TestRunner_Web" />
+      <item itemvalue="Cucumber Java.Scenario: Accessing the Registration page to create a new Customer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunner_Web" />
+        <item itemvalue="Cucumber Java.Feature: AddNewCustomer" />
+        <item itemvalue="Cucumber Java.Scenario: Accessing the Registration page to create a new Customer" />
+        <item itemvalue="Cucumber Java.Feature: AddCustomer" />
         <item itemvalue="TestNG.TestRunner_Web.runCukes" />
       </list>
     </recent_temporary>
@@ -285,6 +475,21 @@
       <option name="presentableId" value="Default" />
       <updated>1622989939863</updated>
     </task>
+    <task id="LOCAL-00001" summary="merge from main">
+      <created>1625586142102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625586142102</updated>
+    </task>
+    <task id="LOCAL-00002" summary="merge from main">
+      <created>1625586332711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625586332711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -361,6 +566,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge from main" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge from main" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/formatter/PluginFactory.java">

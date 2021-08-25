@@ -6,7 +6,7 @@
 Feature: Effect transactions on GTPL Bank website
 
 	#Scenario1
-	@Login
+	@Login1
 	Scenario Outline: Accessing the Registration page to create a new Customer
 
 		Given I am on GTPL Bank website
