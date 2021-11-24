@@ -1,6 +1,0 @@
-#surefire_0
-#Mon Jun 14 22:29:31 MUT 2021
-cucumber.options=--tags @Execute
-basedir=C\:\\Users\\RAVISH\\Desktop\\Selenium Training\\Guru-Bank
-user.dir=C\:\\Users\\RAVISH\\Desktop\\Selenium Training\\Guru-Bank
-localRepository=C\:\\Users\\RAVISH\\.m2\\repository

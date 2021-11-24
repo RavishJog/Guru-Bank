@@ -33,7 +33,6 @@ public class Utility {
 
         }
     }
-
     public static String generateRandomString( int length)
     {
         String candidateChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

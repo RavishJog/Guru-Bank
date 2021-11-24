@@ -1,6 +1,10 @@
 package stepDefinition;
 
 //import com.vimalselvam.cucumber.listener.Reporter;
+import ObjectRepository.LoginPage;
+import ObjectRepository.NewCustomerAddress;
+import ObjectRepository.NewCustomerDOB;
+import ObjectRepository.NewCustomerPage;
 import cucumber.api.Scenario;
 import com.cucumber.listener.Reporter;
 import cucumber.api.java.After;
@@ -38,9 +42,9 @@ public class Tests_Steps extends Utility{
             // calling Sceenshot function
             takeScreenShot(scenario);
         }
-//        try { driver.quit(); }
-        try {
-            System.out.println("No Quit");; }
+        try { driver.quit(); }
+//        try {
+//            System.out.println("No Quit");; }
         catch (Exception e) {
 //            tLog.logError(String.valueOf(e));
             System.out.println(String.valueOf(e));}
@@ -67,19 +71,25 @@ public class Tests_Steps extends Utility{
     @When("^I enter \"([^\"]*)\" userID and password \"([^\"]*)\"$")
     public void i_enter_userID_and_password(String userid, String password) throws Throwable {
         takeScreenShot(this.scenario);
-        driver.findElement(By.name("uid")).sendKeys(userid);
-        driver.findElement(By.name("password")).sendKeys(password);
+//        driver.findElement(By.name("uid")).sendKeys(userid);
+        LoginPage.Username(driver).sendKeys(userid);
+        //       driver.findElement(By.name("password")).sendKeys(password);
+        LoginPage.Password(driver).sendKeys(password);
+
         driver.findElement(By.name("btnLogin")).click();
     }
 
     @Then("^The Manager Page is displayed$")
     public void the_Manager_Page_is_displayed() throws Throwable {
+
         try {
             driver.findElement(By.xpath("//a[contains(text(),'Manager')]"));
         } catch (Exception e) {
             System.out.println("User Name or Password incorrect");
             Assert.fail("User Name or Password incorrect");
         }
+
+
 
     }
 
@@ -117,18 +127,23 @@ public class Tests_Steps extends Utility{
             }
         }
 
-
+//New push
 
     @Given("^I select \"([^\"]*)\" in the Radio Button field$")
     public void i_select_in_the_Radio_Button_field(String Gender) throws Throwable {
         if (Gender.equals("male")) {
             System.out.println("Male if working");
-            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]")).click();
+//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[1]")).click();
+            NewCustomerPage.radGenderMale(driver).click();
+
 
         } else if (Gender.equals("female")) {
             System.out.println("Female if working");
 
-            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[2]")).click();
+//            driver.findElement(By.xpath("//tbody/tr[5]/td[2]/input[2]")).click();
+
+            NewCustomerPage.radGenderFemale(driver).click();
+
 
         } else {
             System.out.println("Option is Not Valid");
@@ -137,12 +152,17 @@ public class Tests_Steps extends Utility{
 
     @Given("^I input \"([^\"]*)\" in the Date Of Birth field$")
     public void i_input_in_the_Date_Of_Birth_field(String birthdate) throws Throwable {
-        driver.findElement(By.name("dob")).sendKeys(birthdate);
+//        driver.findElement(By.name("dob")).sendKeys(birthdate);
+
+//        This class is calling method from Object Repository NewCustomerDOB
+        NewCustomerDOB.insert_dob(driver).sendKeys(birthdate);
     }
 
     @Given("^I input \"([^\"]*)\" in the Address field$")
     public void i_input_in_the_Address_field(String address) throws Throwable {
-        driver.findElement(By.name("addr")).sendKeys(address);
+//        driver.findElement(By.name("addr")).sendKeys(address);
+          NewCustomerAddress.insert_address(driver).sendKeys(address);
+
     }
 
     @When("^I input \"([^\"]*)\" in the City field$")

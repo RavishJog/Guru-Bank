@@ -3,6 +3,7 @@ package stepDefinition;
 //import com.vimalselvam.cucumber.listener.Reporter;
 
 import CommonMethods.Utility;
+import ObjectRepository.LoginPage;
 import com.cucumber.listener.Reporter;
 import cucumber.api.PendingException;
 import cucumber.api.Scenario;
@@ -71,6 +72,8 @@ public class Tests_Steps_Telecom extends Utility {
     public void i_click_on_Add_Customer() throws Throwable {
         takeScreenShot(this.scenario);
         driver.findElement(By.xpath("//h3//a[contains(text(),'Add Customer')]")).click();
+
+
     }
 
     @Then("^The Add Customer Page is display$")

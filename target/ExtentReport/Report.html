@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 6, 2021 04:27:08 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 18, 2021 07:36:46 AM</span>
 				</a>
 			</li>
 			<li>
@@ -79,7 +79,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -93,7 +92,7 @@
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>@ExecutionatFeatureLevel</a></li>
-					<li><a href='#'>@AddCustomer</a></li>
+					<li><a href='#'>@Execute</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -171,10 +170,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>6</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>21</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -190,79 +189,122 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Telecom Project</span>
-						<span class='test-time'>Jul 6, 2021 04:27:08 PM</span>
+						<span class='test-name'>Effect transactions on GTPL Bank website</span>
+						<span class='test-time'>Oct 18, 2021 07:36:46 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 9s+435ms</span>
+	<span class='duration right label'>0h 4m 20s+29ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
-		<span class="desc-text">Accessing the Telecom page to create a new Customer</span>
+		<span class="desc-text">Adding a New Customer</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node scenario pass' status='pass'>
 			<div class='category-list'>
 				<span class='category label white-text'>@ExecutionatFeatureLevel</span>
-				<span class='category label white-text'>@AddCustomer</span>
+				<span class='category label white-text'>@Execute</span>
 			</div>
 			
 			<b>Scenario</b>
 			
-			<span class="bdd-step-name">Accessing the Telecom page to create a new Customer</span>
+			<span class="bdd-step-name">Adding a New Customer</span>
 			
 				<ul class='steps'>
 					<li test-id='4' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given I am on Guru99 telecom</span>
+						<span class="bdd-step-name">Given I am on GTPL Bank website</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='5' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When I click on Add Customer</span>
+						<span class="bdd-step-name">When I enter "mngr359969" userID and password "Ujyvada"</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\Arvind\Documents\AUTOMATION\Guru-Bank\ExtentReport\screenshots\Accessing_the_Telecom_page_to_create_a_new_CustomerZPXFX.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\sjoggessur2\Desktop\Training\Selenium\Selenium Training\Payment-Gateway\ExtentReport\screenshots\Adding_a_New_CustomerXLNGR.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='6' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then The Add Customer Page is display</span>
-						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\Arvind\Documents\AUTOMATION\Guru-Bank\ExtentReport\screenshots\Accessing_the_Telecom_page_to_create_a_new_CustomerMQNYM.png"><i class='material-icons'>panorama</i></a></li>
-						</ul>
+						<span class="bdd-step-name">Then The Manager Page is displayed</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='7' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then I select "Pending" status</span>
+						<span class="bdd-step-name">Then I click on New Customer</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\Arvind\Documents\AUTOMATION\Guru-Bank\ExtentReport\screenshots\Accessing_the_Telecom_page_to_create_a_new_CustomerQUNWA.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\sjoggessur2\Desktop\Training\Selenium\Selenium Training\Payment-Gateway\ExtentReport\screenshots\Adding_a_New_CustomerYDPRW.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='8' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then I enter "Robert" in FName field and I enter "Pattison" in LName field</span>
+					<li test-id='8' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I enter "Sunny Leone" in the Customer Name field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='9' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify "" for customername error message</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='10' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I select "female" in the Radio Button field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='11' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I input "1984/12/07" in the Date Of Birth field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='12' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I input "Royal Road" in the Address field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='13' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I input "New York" in the City field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='14' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify "" for city error message</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='15' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I input "Cape Town" in the State field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='16' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify "" for state error message</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='17' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I input "147852" in the PIN field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='18' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify"" for PIN error message</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='19' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I input "5986254785" in the Telephone No field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='20' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify "" for Telephone No message</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='21' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I input "rasddasd@mu.com" in the Email field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='22' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I verify "" for Email error message</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\Arvind\Documents\AUTOMATION\Guru-Bank\ExtentReport\screenshots\Accessing_the_Telecom_page_to_create_a_new_CustomerNMLUZ.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\sjoggessur2\Desktop\Training\Selenium\Selenium Training\Payment-Gateway\ExtentReport\screenshots\Adding_a_New_CustomerKVNXE.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\sjoggessur2\Desktop\Training\Selenium\Selenium Training\Payment-Gateway\ExtentReport\screenshots\Adding_a_New_CustomerFHTYR.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='9' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then I enter "RobP@gmail.com" for email address</span>
-						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\Arvind\Documents\AUTOMATION\Guru-Bank\ExtentReport\screenshots\Accessing_the_Telecom_page_to_create_a_new_CustomerEIXEB.png"><i class='material-icons'>panorama</i></a></li>
-						</ul>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='10' class='node and skip' status='skip'><b>And</b>
-						<span class="bdd-step-name">And I enter "<address>" in the address box</span>
-							<div class='pre'>undefined</div>
-					</li>
-					<li test-id='11' class='node and skip' status='skip'><b>And</b>
-						<span class="bdd-step-name">And I enter "<MobileNumber>" in the Mobile number box</span>
-							<div class='pre'>undefined</div>
-					</li>
-					<li test-id='12' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='23' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then I click on Submit Button</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='24' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I close the browser</span>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
@@ -345,13 +387,13 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 6, 2021 04:27:08 PM</td>
-										<td class='linked' test-id='1'>Telecom Project</td>
+										<td>Oct 18, 2021 07:36:46 AM</td>
+										<td class='linked' test-id='1'>Effect transactions on GTPL Bank website</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Jul 6, 2021 04:27:08 PM</td>
-										<td class='linked' test-id='3'>Telecom Project.Accessing the Telecom page to create a new Customer.Accessing the Telecom page to create a new Customer</td>
+										<td>Oct 18, 2021 07:36:46 AM</td>
+										<td class='linked' test-id='3'>Effect transactions on GTPL Bank website.Adding a New Customer.Adding a New Customer</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -361,7 +403,7 @@
 				</li>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@AddCustomer</span>
+						<span class='category-name'>@Execute</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -384,8 +426,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 6, 2021 04:27:08 PM</td>
-										<td class='linked' test-id='3'>Telecom Project.Accessing the Telecom page to create a new Customer.Accessing the Telecom page to create a new Customer</td>
+										<td>Oct 18, 2021 07:36:46 AM</td>
+										<td class='linked' test-id='3'>Effect transactions on GTPL Bank website.Adding a New Customer.Adding a New Customer</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -426,25 +468,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>9</div>
+					<div class='panel-lead'>21</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 6, 2021 04:27:08 PM</div>
+					<div class='panel-lead'>Oct 18, 2021 07:36:46 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 6, 2021 04:27:18 PM</div>
+			 		<div class='panel-lead'>Oct 18, 2021 07:41:06 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>10,021ms</div>
+					<div class='panel-lead'>260,277ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -458,7 +500,7 @@
 						</tr>
 							<tr>
 								<td>user</td>
-								<td>Arvind</td>
+								<td>sjoggessur2</td>
 							</tr>
 					</table>
 				</div>
@@ -485,7 +527,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>@AddCustomer</td>
+							<td>@Execute</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -533,14 +575,14 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 6,
+				passGrandChild: 21,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 3,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 3,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		
